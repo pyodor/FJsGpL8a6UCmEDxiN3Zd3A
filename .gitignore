@@ -1,0 +1,12 @@
+_Store
+*.swp
+.DS_Store?
+._*
+.Trashes
+Icon?
+Thumbs.db
+*.ignore
+node_modules
+bower_components
+docs
+coverage

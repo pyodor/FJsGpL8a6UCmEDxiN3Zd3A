@@ -1,0 +1,15 @@
+{
+    "name": "aftership-challenge",
+    "version": "0.0.1",
+    "description": "Aftership Challenge",
+    "author": "Diosdado D. Campo",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/pyodor/FJsGpL8a6UCmEDxiN3Zd3A.git"
+    },
+    "private": true,
+    "dependencies": {
+        "fivebeans": "~1.1.1",
+        "scraperjs": "~0.3.2"
+    }
+}
