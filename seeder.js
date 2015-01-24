@@ -14,7 +14,7 @@ var jobs = {
 
 var try_limit = 10;
 var delay_fail = 3;
-var delay_success = 6;
+var delay_success = 60;
 var number_of_try = 1;
 var fail_time_id, success_time_id;
 
