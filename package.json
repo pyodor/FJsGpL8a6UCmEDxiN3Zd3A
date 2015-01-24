@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "Aftership Challenge",
     "author": "Diosdado D. Campo",
-    "main": "./index",
+    "main": "./worker",
     "repository": {
         "type": "git",
         "url": "git://github.com/pyodor/FJsGpL8a6UCmEDxiN3Zd3A.git"
@@ -12,6 +12,7 @@
     "dependencies": {
         "fivebeans": "~1.1.1",
         "scraperjs": "~0.3.2",
-        "mongoose": "*"
+        "mongoose": "*",
+        "async": "*"
     }
 }
