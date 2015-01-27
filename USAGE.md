@@ -7,6 +7,9 @@ At the root directory
 ## Run the worker
 
     node .
+or
+
+    node worker.js
 
 This will spawn a number of workers according to number of your CPU
 
