@@ -18,8 +18,9 @@ To test the worker, run the test script seeder.js on separate shell
 
 ## How it works
 
-The seeder will push a payload to beanstalked, and will delay in 3 and 60 seconds every after fail and success respectively
-The worker will pull the payload and will do the work: (worker will also have delay of 3 and 60 seconds every after fail and success respectively)
+The seeder will push a payload to beanstalked, and will delay in 3 and 60 seconds every after fail and success respectively.
+The worker will pull the payload and will do the work: (worker will also have delay of 3 and 60 seconds every after fail and success respectively).
+The seeding will stop if it tries 10 times regardless if fail or success.
     
     1. Parse the payload (currency), it will scrape to xe.com's currency converter to check the current rate
     2. In case with multiple currency, it will asynchronously scrapes to xe.com's currency converter
